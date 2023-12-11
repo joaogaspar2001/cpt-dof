@@ -1,0 +1,26 @@
+name: cpt-dof-cpu
+channels:
+  - defaults
+dependencies:
+  - python=3.10.8
+  - numpy
+  - matplotlib
+  - numba
+  - onnx
+  - opencv
+  - pillow
+  - pyqt
+  - scipy
+  - tqdm
+  - pip
+  - pip:
+    - external==0.0.1
+    - imutils==0.5.4
+    - onnxruntime==1.16.1
+    - opencv-python==4.6.0.66
+    - openvino==2023.1.0 
+    - std_msgs==0.0.1
+    - timm==0.6.12
+    - torch==2.1.0
+    - torchvision==0.16.0
+    - transformers==4.34.0
